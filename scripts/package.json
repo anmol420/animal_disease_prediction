@@ -1,0 +1,25 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon --exec ts-node --files src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "author": "anmol420",
+  "contributors": [
+    {
+      "name": "divy404",
+      "url": "https://github.com/divy404"
+    }
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
