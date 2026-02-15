@@ -1,0 +1,932 @@
+[
+  {
+      "event": {
+          "eventId": 7260,
+          "isForCountry": false,
+          "isAquatic": false,
+          "country": {
+              "areaId": 19,
+              "name": "Belgium",
+              "isoCode": "BEL"
+          },
+          "disease": {
+              "diseaseId": 671,
+              "name": "Influenza A viruses of high pathogenicity (Inf. with) (non-poultry including wild birds) (2017-)",
+              "group": "Aves",
+              "category": "Listed disease",
+              "isDomestic": false,
+              "isAquatic": false,
+              "selfDeclaration": true
+          },
+          "causalAgent": {
+              "agentId": 252,
+              "name": "Highly pathogenic avian influenza virus",
+              "type": "Virus"
+          },
+          "subType": {
+              "disease": {
+                  "diseaseId": 558,
+                  "name": "H5N1",
+                  "group": null,
+                  "category": "Listed disease",
+                  "isDomestic": false,
+                  "isAquatic": false,
+                  "selfDeclaration": true
+              },
+              "diseaseType": null
+          },
+          "clinicalSigns": true,
+          "startedOn": "2026-02-05T00:00:00.000+00:00",
+          "confirmOn": "2026-02-11T00:00:00.000+00:00",
+          "lastOccurrence": "2025-12-24T00:00:00.000+00:00",
+          "endedOn": null,
+          "reason": {
+              "id": 280,
+              "keyValue": "reccurence disease",
+              "translation": "Recurrence of an eradicated disease",
+              "description": null
+          },
+          "eventStatus": {
+              "id": 136,
+              "keyValue": "ongoing",
+              "translation": "On-going",
+              "description": null
+          },
+          "eventComment": null,
+          "zoonoticDesc": null
+      },
+      "report": {
+          "reportId": 180473,
+          "previousReportId": null,
+          "reportNumber": 0,
+          "reportReference": null,
+          "reportedOn": "2026-02-12T15:07:46.024+00:00",
+          "reportStatus": {
+              "id": 287,
+              "keyValue": "Validated",
+              "translation": "Validated",
+              "description": null
+          },
+          "noEvolutionReport": null,
+          "creationDate": "2026-02-12T14:48:03.960+00:00"
+      },
+      "sources": [
+          {
+              "source": {
+                  "sourceId": 5,
+                  "name": "Contact with wild species",
+                  "description": null
+              },
+              "otherSource": null
+          }
+      ],
+      "measures": [
+          {
+              "measure": {
+                  "measureId": 25,
+                  "category": {
+                      "original": "Terrestrial domestic",
+                      "translation": "Terrestrial domestic"
+                  },
+                  "name": "Stamping out",
+                  "description": "The killing of the animals which are affected and those suspected of being affected in the herd or flock and, where appropriate, those in other herds or flocks which have been exposed to infection by direct animal to animal contact, or by indirect contact with the causal pathogenic agent; animals should be killed in accordance with Chapter 7.6. The disposal of carcasses and, where relevant, animal products by rendering, burning or burial, or by any other method described in Chapter 4.12. The cleansing and disinfection of establishments through procedures defined in Chapter 4.13."
+              },
+              "status": {
+                  "id": 35,
+                  "keyValue": "applied",
+                  "translation": "Applied",
+                  "description": null
+              }
+          },
+          {
+              "measure": {
+                  "measureId": 8,
+                  "category": {
+                      "original": "Terrestrial domestic",
+                      "translation": "Terrestrial domestic"
+                  },
+                  "name": "Disinfection",
+                  "description": "Application, after thorough cleansing, of procedures intended to destroy the infectious or parasitic agents of animal diseases, including zoonoses; this applies to premises, vehicles and different objects which may have been directly or indirectly contaminated."
+              },
+              "status": {
+                  "id": 35,
+                  "keyValue": "applied",
+                  "translation": "Applied",
+                  "description": null
+              }
+          },
+          {
+              "measure": {
+                  "measureId": 17,
+                  "category": {
+                      "original": "Terrestrial domestic",
+                      "translation": "Terrestrial domestic"
+                  },
+                  "name": "Official disposal of carcasses, by-products and waste",
+                  "description": "Disposal of carcasses, by-products and waste under the supervision of the Competent Authority to prevent spread of the disease, infection or infestation."
+              },
+              "status": {
+                  "id": 35,
+                  "keyValue": "applied",
+                  "translation": "Applied",
+                  "description": null
+              }
+          }
+      ],
+      "methods": [
+          {
+              "nature": {
+                  "id": 69,
+                  "keyValue": "Necropsy",
+                  "translation": "Necropsy",
+                  "description": null
+              }
+          },
+          {
+              "nature": {
+                  "id": 67,
+                  "keyValue": "Clinical",
+                  "translation": "Clinical",
+                  "description": null
+              }
+          },
+          {
+              "nature": {
+                  "id": 68,
+                  "keyValue": "Diagnostic test",
+                  "translation": "Diagnostic test",
+                  "description": null
+              }
+          }
+      ],
+      "outbreaks": [
+          {
+              "outbreakId": 180687,
+              "oieReference": "ob_180687",
+              "nationalReference": "H1-20260212",
+              "adminDivision": "Tielt",
+              "location": "Tielt",
+              "locationApprox": false,
+              "epiUnitType": "Backyard",
+              "clusterCount": 1,
+              "startDate": "2026-02-05T00:00:00.000+00:00",
+              "endDate": "2026-02-11T00:00:00.000+00:00",
+              "isFromCurrentOutbreak": null,
+              "createdByReportId": 180473,
+              "lastUpdateReportId": 180473,
+              "longitude": 3.31,
+              "latitude": 50.97,
+              "description": "Outbreak in hobbyiste",
+              "speciesNumber": 1
+          }
+      ],
+      "strategy": "Outbreak",
+      "laboratoryTests": [
+          {
+              "ltsIdOrObdtId": 25390,
+              "testId": 274,
+              "testName": "Whole genome sequencing (WGS)",
+              "laboratoryId": 337,
+              "laboratoryName": "Sciensano",
+              "labRoleSelected": "national",
+              "outbreakLocation": "Tielt",
+              "outbreaksSampled": 1,
+              "outbreakId": 180687,
+              "testFrom": null,
+              "testUntil": null,
+              "resultDate": "2026-02-11T00:00:00.000+00:00",
+              "result": "Positive",
+              "speciesIds": [
+                  704
+              ],
+              "species": [
+                  "Birds"
+              ],
+              "createdByCurrentReport": true
+          },
+          {
+              "ltsIdOrObdtId": 25389,
+              "testId": 233,
+              "testName": "Reverse transcription-polymerase chain reaction (RT-PCR)",
+              "laboratoryId": 337,
+              "laboratoryName": "Sciensano",
+              "labRoleSelected": "national",
+              "outbreakLocation": "Tielt",
+              "outbreaksSampled": 1,
+              "outbreakId": 180687,
+              "testFrom": null,
+              "testUntil": null,
+              "resultDate": "2026-02-10T00:00:00.000+00:00",
+              "result": "Positive",
+              "speciesIds": [
+                  704
+              ],
+              "species": [
+                  "Birds"
+              ],
+              "createdByCurrentReport": true
+          }
+      ],
+      "quantitativeData": {
+          "news": [
+              {
+                  "outbreakQuantitiesId": 232790,
+                  "speciesId": 704,
+                  "speciesName": "Birds",
+                  "isWild": false,
+                  "susceptible": 16,
+                  "cases": 16,
+                  "deaths": 5,
+                  "killed": 11,
+                  "slaughtered": null,
+                  "vaccinated": null
+              }
+          ],
+          "totals": [
+              {
+                  "outbreakQuantitiesId": 232790,
+                  "speciesId": 704,
+                  "speciesName": "Birds",
+                  "isWild": false,
+                  "susceptible": 16,
+                  "cases": 16,
+                  "deaths": 5,
+                  "killed": 11,
+                  "slaughtered": null,
+                  "vaccinated": null
+              }
+          ],
+          "unit": {
+              "id": 56,
+              "keyValue": "Animal",
+              "translation": "Animal",
+              "description": null
+          }
+      },
+      "selfDeclaration": null,
+      "user": null
+  },
+  {
+      "event": {
+          "eventId": 7259,
+          "isForCountry": false,
+          "isAquatic": false,
+          "country": {
+              "areaId": 59,
+              "name": "Germany",
+              "isoCode": "DEU"
+          },
+          "disease": {
+              "diseaseId": 825,
+              "name": "Rabies virus (Inf. with) ",
+              "group": "Multiple species",
+              "category": "Listed disease",
+              "isDomestic": false,
+              "isAquatic": false,
+              "selfDeclaration": true
+          },
+          "causalAgent": {
+              "agentId": 240,
+              "name": "Rabies virus  ",
+              "type": "Virus"
+          },
+          "subType": {
+              "disease": {
+                  "diseaseId": 826,
+                  "name": "RABV",
+                  "group": null,
+                  "category": "Listed disease",
+                  "isDomestic": false,
+                  "isAquatic": false,
+                  "selfDeclaration": true
+              },
+              "diseaseType": null
+          },
+          "clinicalSigns": true,
+          "startedOn": "2026-01-24T00:00:00.000+00:00",
+          "confirmOn": "2026-02-10T00:00:00.000+00:00",
+          "lastOccurrence": "2022-01-24T00:00:00.000+00:00",
+          "endedOn": null,
+          "reason": {
+              "id": 280,
+              "keyValue": "reccurence disease",
+              "translation": "Recurrence of an eradicated disease",
+              "description": null
+          },
+          "eventStatus": {
+              "id": 136,
+              "keyValue": "ongoing",
+              "translation": "On-going",
+              "description": null
+          },
+          "eventComment": {
+              "original": "Germany has been officially recognized as free from terrestrial rabies (rabies in ground-dwelling animals) since 2008. In 2021, rabies was detected in a dog that was illegally brought to Germany from a non-EU country. In 2024 the freedom was reconfirmed after an updated self-declaration was sent to WOAH.\n\nThe dog, which contracted rabies and died on 25.01.2026, was legally brought to Germany from a non-EU country. According to the accompanying documents, the dog was almost 8 months old, had been chipped and vaccinated against rabies. The available rabies test confirmed the effectiveness of the vaccination. \nHowever, the examination of the animal after it died revealed that the animal was younger than stated when it entered the EU. This means, the import requirements were not met and the import was illegal.",
+              "translation": "Germany has been officially recognized as free from terrestrial rabies (rabies in ground-dwelling animals) since 2008. In 2021, rabies was detected in a dog that was illegally brought to Germany from a non-EU country. In 2024 the freedom was reconfirmed after an updated self-declaration was sent to WOAH.\n\nThe dog, which contracted rabies and died on 25.01.2026, was legally brought to Germany from a non-EU country. According to the accompanying documents, the dog was almost 8 months old, had been chipped and vaccinated against rabies. The available rabies test confirmed the effectiveness of the vaccination. \nHowever, the examination of the animal after it died revealed that the animal was younger than stated when it entered the EU. This means, the import requirements were not met and the import was illegal."
+          },
+          "zoonoticDesc": null
+      },
+      "report": {
+          "reportId": 180467,
+          "previousReportId": null,
+          "reportNumber": 0,
+          "reportReference": "RP RABIES IMPORT IN",
+          "reportedOn": "2026-02-13T15:09:40.180+00:00",
+          "reportStatus": {
+              "id": 287,
+              "keyValue": "Validated",
+              "translation": "Validated",
+              "description": null
+          },
+          "noEvolutionReport": null,
+          "creationDate": "2026-02-12T11:23:58.374+00:00"
+      },
+      "sources": [
+          {
+              "source": null,
+              "otherSource": {
+                  "original": "Imported dog from a non-EU country",
+                  "translation": "Imported dog from a non-EU country"
+              }
+          }
+      ],
+      "measures": [
+          {
+              "measure": {
+                  "measureId": 15,
+                  "category": {
+                      "original": "Terrestrial domestic",
+                      "translation": "Terrestrial domestic"
+                  },
+                  "name": "Movement control",
+                  "description": "Measures aimed at avoiding the spread of the disease, infection or infestation within a country/zone/compartment due to the movement of animals or their products."
+              },
+              "status": {
+                  "id": 35,
+                  "keyValue": "applied",
+                  "translation": "Applied",
+                  "description": null
+              }
+          },
+          {
+              "measure": {
+                  "measureId": 21,
+                  "category": {
+                      "original": "Terrestrial domestic",
+                      "translation": "Terrestrial domestic"
+                  },
+                  "name": "Quarantine",
+                  "description": "Infected animals and when appropriate, epidemiologically linked susceptible animals are kept isolated under the supervision of the Veterinary Authority until all sanitary measures considered necessary to control or eradicate the disease have been completed."
+              },
+              "status": {
+                  "id": 35,
+                  "keyValue": "applied",
+                  "translation": "Applied",
+                  "description": null
+              }
+          },
+          {
+              "measure": {
+                  "measureId": 33,
+                  "category": {
+                      "original": "Terrestrial domestic",
+                      "translation": "Terrestrial domestic"
+                  },
+                  "name": "Traceability",
+                  "description": "Investigation of any epidemiological link of animals / animal products, in order to determine origin and spread of the disease, infection or infestation."
+              },
+              "status": {
+                  "id": 35,
+                  "keyValue": "applied",
+                  "translation": "Applied",
+                  "description": null
+              }
+          },
+          {
+              "measure": {
+                  "measureId": 22,
+                  "category": {
+                      "original": "Terrestrial wild",
+                      "translation": "Terrestrial wild"
+                  },
+                  "name": "Screening",
+                  "description": "Survey carried out within the framework of a control programme for the disease, infection or infestation for health qualification of herds/flocks in all or part of the national territory."
+              },
+              "status": {
+                  "id": 35,
+                  "keyValue": "applied",
+                  "translation": "Applied",
+                  "description": null
+              }
+          },
+          {
+              "measure": {
+                  "measureId": 4,
+                  "category": {
+                      "original": "Terrestrial wild",
+                      "translation": "Terrestrial wild"
+                  },
+                  "name": "Control of wildlife reservoirs",
+                  "description": "Measures to reduce the potential for wildlife to transmit the disease to domestic animals and human beings (control of wildlife reservoir populations, vaccination of target wildlife etc.)."
+              },
+              "status": {
+                  "id": 35,
+                  "keyValue": "applied",
+                  "translation": "Applied",
+                  "description": null
+              }
+          }
+      ],
+      "methods": [
+          {
+              "nature": {
+                  "id": 68,
+                  "keyValue": "Diagnostic test",
+                  "translation": "Diagnostic test",
+                  "description": null
+              }
+          },
+          {
+              "nature": {
+                  "id": 67,
+                  "keyValue": "Clinical",
+                  "translation": "Clinical",
+                  "description": null
+              }
+          }
+      ],
+      "outbreaks": [
+          {
+              "outbreakId": 180665,
+              "oieReference": "ob_180665",
+              "nationalReference": "26-107-00001",
+              "adminDivision": "Dannstadt-Schauernheim",
+              "location": "Hochdorf-Assenheim",
+              "locationApprox": true,
+              "epiUnitType": "Other",
+              "clusterCount": 1,
+              "startDate": "2026-01-24T00:00:00.000+00:00",
+              "endDate": null,
+              "isFromCurrentOutbreak": null,
+              "createdByReportId": 180467,
+              "lastUpdateReportId": 180467,
+              "longitude": 8.29,
+              "latitude": 49.43,
+              "description": "The dog, which contracted rabies and died on 25.01.2026, was legally brought to Germany from a non-EU country. According to the accompanying documents, the dog was almost 8 months old, had been chipped and vaccinated against rabies. The available rabies test confirmed the effectiveness of the vaccination. \nHowever, the examination of the animal after it died revealed that the animal was younger than stated when it entered the EU. This means, the import requirements were not met and the import was illegal.",
+              "speciesNumber": 1
+          }
+      ],
+      "strategy": "Outbreak",
+      "laboratoryTests": [
+          {
+              "ltsIdOrObdtId": 25371,
+              "testId": 221,
+              "testName": "Real-time polymerase chain reaction (real-time PCR)",
+              "laboratoryId": 1321,
+              "laboratoryName": "LUA, Abt. Tiermedizin",
+              "labRoleSelected": "regional",
+              "outbreakLocation": "Hochdorf-Assenheim",
+              "outbreaksSampled": 1,
+              "outbreakId": 180665,
+              "testFrom": null,
+              "testUntil": null,
+              "resultDate": "2026-02-10T00:00:00.000+00:00",
+              "result": "Positive",
+              "speciesIds": [
+                  1729
+              ],
+              "species": [
+                  "Dogs"
+              ],
+              "createdByCurrentReport": true
+          }
+      ],
+      "quantitativeData": {
+          "news": [
+              {
+                  "outbreakQuantitiesId": 233248,
+                  "speciesId": 1729,
+                  "speciesName": "Dogs",
+                  "isWild": false,
+                  "susceptible": 1,
+                  "cases": 1,
+                  "deaths": 1,
+                  "killed": 0,
+                  "slaughtered": null,
+                  "vaccinated": null
+              }
+          ],
+          "totals": [
+              {
+                  "outbreakQuantitiesId": 233248,
+                  "speciesId": 1729,
+                  "speciesName": "Dogs",
+                  "isWild": false,
+                  "susceptible": 1,
+                  "cases": 1,
+                  "deaths": 1,
+                  "killed": 0,
+                  "slaughtered": null,
+                  "vaccinated": null
+              }
+          ],
+          "unit": {
+              "id": 56,
+              "keyValue": "Animal",
+              "translation": "Animal",
+              "description": null
+          }
+      },
+      "selfDeclaration": null,
+      "user": null
+  },
+  {
+      "event": {
+          "eventId": 1,
+          "isForCountry": true,
+          "isAquatic": false,
+          "country": {
+              "areaId": 9,
+              "name": "Argentina",
+              "isoCode": "ARG"
+          },
+          "disease": {
+              "diseaseId": 877,
+              "name": "West Nile Fever ",
+              "group": "Multiple species",
+              "category": "Listed disease",
+              "isDomestic": false,
+              "isAquatic": false,
+              "selfDeclaration": true
+          },
+          "causalAgent": {
+              "agentId": 14,
+              "name": "West Nile virus ",
+              "type": "Virus"
+          },
+          "subType": null,
+          "clinicalSigns": true,
+          "startedOn": "2006-02-04T00:00:00.000+00:00",
+          "confirmOn": "2006-04-19T00:00:00.000+00:00",
+          "lastOccurrence": null,
+          "endedOn": "2006-12-21T00:00:00.000+00:00",
+          "reason": {
+              "id": 279,
+              "keyValue": "First occ in zone",
+              "translation": "First occurrence",
+              "description": null
+          },
+          "eventStatus": {
+              "id": 137,
+              "keyValue": "resolved",
+              "translation": "Resolved",
+              "description": null
+          },
+          "eventComment": null,
+          "zoonoticDesc": null
+      },
+      "report": {
+          "reportId": 225,
+          "previousReportId": 3,
+          "reportNumber": 2,
+          "reportReference": "WNArg",
+          "reportedOn": "2007-02-09T00:00:00.000+00:00",
+          "reportStatus": {
+              "id": 287,
+              "keyValue": "Validated",
+              "translation": "Validated",
+              "description": null
+          },
+          "noEvolutionReport": null,
+          "creationDate": "2007-02-09T00:00:00.000+00:00"
+      },
+      "sources": [
+          {
+              "source": {
+                  "sourceId": 16,
+                  "name": "Unknown or inconclusive",
+                  "description": null
+              },
+              "otherSource": null
+          }
+      ],
+      "measures": [
+          {
+              "measure": {
+                  "measureId": 15,
+                  "category": {
+                      "original": "Terrestrial domestic",
+                      "translation": "Terrestrial domestic"
+                  },
+                  "name": "Movement control inside the country",
+                  "description": "Measures aimed at avoiding the spread of the disease, infection or infestation within a country/zone/compartment due to the movement of animals or their products."
+              },
+              "status": {
+                  "id": 35,
+                  "keyValue": "applied",
+                  "translation": "Applied",
+                  "description": null
+              }
+          },
+          {
+              "measure": {
+                  "measureId": 21,
+                  "category": {
+                      "original": "Terrestrial domestic",
+                      "translation": "Terrestrial domestic"
+                  },
+                  "name": "Quarantine",
+                  "description": "Infected animals and when appropriate, epidemiologically linked susceptible animals are kept isolated under the supervision of the Veterinary Authority until all sanitary measures considered necessary to control or eradicate the disease have been completed."
+              },
+              "status": {
+                  "id": 35,
+                  "keyValue": "applied",
+                  "translation": "Applied",
+                  "description": null
+              }
+          },
+          {
+              "measure": {
+                  "measureId": 22,
+                  "category": {
+                      "original": "Terrestrial domestic",
+                      "translation": "Terrestrial domestic"
+                  },
+                  "name": "Screening",
+                  "description": "Survey carried out within the framework of a control programme for the disease, infection or infestation for health qualification of herds/flocks in all or part of the national territory."
+              },
+              "status": {
+                  "id": 35,
+                  "keyValue": "applied",
+                  "translation": "Applied",
+                  "description": null
+              }
+          },
+          {
+              "measure": {
+                  "measureId": 15,
+                  "category": {
+                      "original": "Terrestrial wild",
+                      "translation": "Terrestrial wild"
+                  },
+                  "name": "Movement control inside the country",
+                  "description": "Measures aimed at avoiding the spread of the disease, infection or infestation within a country/zone/compartment due to the movement of animals or their products."
+              },
+              "status": {
+                  "id": 35,
+                  "keyValue": "applied",
+                  "translation": "Applied",
+                  "description": null
+              }
+          },
+          {
+              "measure": {
+                  "measureId": 21,
+                  "category": {
+                      "original": "Terrestrial wild",
+                      "translation": "Terrestrial wild"
+                  },
+                  "name": "Quarantine",
+                  "description": "Infected animals and when appropriate, epidemiologically linked susceptible animals are kept isolated under the supervision of the Veterinary Authority until all sanitary measures considered necessary to control or eradicate the disease have been completed."
+              },
+              "status": {
+                  "id": 35,
+                  "keyValue": "applied",
+                  "translation": "Applied",
+                  "description": null
+              }
+          },
+          {
+              "measure": {
+                  "measureId": 22,
+                  "category": {
+                      "original": "Terrestrial wild",
+                      "translation": "Terrestrial wild"
+                  },
+                  "name": "Screening",
+                  "description": "Survey carried out within the framework of a control programme for the disease, infection or infestation for health qualification of herds/flocks in all or part of the national territory."
+              },
+              "status": {
+                  "id": 35,
+                  "keyValue": "applied",
+                  "translation": "Applied",
+                  "description": null
+              }
+          }
+      ],
+      "methods": [
+          {
+              "nature": {
+                  "id": 68,
+                  "keyValue": "Diagnostic test",
+                  "translation": "Diagnostic test",
+                  "description": null
+              }
+          },
+          {
+              "nature": {
+                  "id": 67,
+                  "keyValue": "Clinical",
+                  "translation": "Clinical",
+                  "description": null
+              }
+          }
+      ],
+      "outbreaks": [
+          {
+              "outbreakId": 196,
+              "oieReference": "3270",
+              "nationalReference": null,
+              "adminDivision": "Buenos Aires",
+              "location": "Hipódromo de San Isidro",
+              "locationApprox": false,
+              "epiUnitType": "Farm",
+              "clusterCount": 1,
+              "startDate": "2006-02-27T00:00:00.000+00:00",
+              "endDate": "2006-12-21T00:00:00.000+00:00",
+              "isFromCurrentOutbreak": null,
+              "createdByReportId": 3,
+              "lastUpdateReportId": 3,
+              "longitude": -58.51818,
+              "latitude": -34.4822,
+              "description": "un caballo de polo que llegó al predio siete días antes de empezar a manifestar los síntomas procedente de un establecimiento ubicado en el departamento de Victoria, en la provincia de Entre Ríos.",
+              "speciesNumber": 1
+          },
+          {
+              "outbreakId": 195,
+              "oieReference": "3269",
+              "nationalReference": null,
+              "adminDivision": "Buenos Aires",
+              "location": "San Antonio de Areco",
+              "locationApprox": false,
+              "epiUnitType": "Farm",
+              "clusterCount": 1,
+              "startDate": "2006-02-04T00:00:00.000+00:00",
+              "endDate": "2006-12-21T00:00:00.000+00:00",
+              "isFromCurrentOutbreak": null,
+              "createdByReportId": 1,
+              "lastUpdateReportId": 1,
+              "longitude": -59.28,
+              "latitude": -34.1457,
+              "description": "Dos explotaciones (haras) de cría de caballos de carreras pura sangre, una con 331 animales (130 yeguas, 165 potrillos, 10 caballos de montar y 26 caballos en entrenamiento) y la otra con 294 animales (4 sementales, 150 yeguas, 90 potrillos y 50 caballos en entrenamiento).Los animales afectados era dos yeguas de 8 y 18 años de edad respectivamente.",
+              "speciesNumber": 1
+          },
+          {
+              "outbreakId": 1,
+              "oieReference": "2392",
+              "nationalReference": "WNArg2",
+              "adminDivision": "Buenos Aires",
+              "location": "SAN ANTONIO DE ARECO",
+              "locationApprox": false,
+              "epiUnitType": "Farm",
+              "clusterCount": 1,
+              "startDate": "2006-02-11T00:00:00.000+00:00",
+              "endDate": "2006-12-21T00:00:00.000+00:00",
+              "isFromCurrentOutbreak": null,
+              "createdByReportId": 1,
+              "lastUpdateReportId": 1,
+              "longitude": -59.48642,
+              "latitude": -34.22869,
+              "description": "Dos explotaciones (haras) de cría de caballos de carreras pura sangre, una con 331 animales (130 yeguas, 165 potrillos, 10 caballos de montar y 26 caballos en entrenamiento) y la otra con 294 animales (4 sementales, 150 yeguas, 90 potrillos y 50 caballos en entrenamiento).Los animales afectados era dos yeguas de 8 y 18 años de edad respectivamente.",
+              "speciesNumber": 1
+          }
+      ],
+      "strategy": "Event",
+      "laboratoryTests": [
+          {
+              "ltsIdOrObdtId": 31876,
+              "testId": 269,
+              "testName": "Virus neutralisation test",
+              "laboratoryId": 325,
+              "laboratoryName": "Instituto Nacional de Enfermedades Virales Humanas “Dr. Julio I. Maiztegui” (INEVH)",
+              "labRoleSelected": "national",
+              "outbreakLocation": null,
+              "outbreaksSampled": null,
+              "outbreakId": null,
+              "testFrom": "2006-12-28T00:00:00.000+00:00",
+              "testUntil": null,
+              "resultDate": null,
+              "result": "Positive",
+              "speciesIds": [
+                  1875
+              ],
+              "species": [
+                  "Equidae"
+              ],
+              "createdByCurrentReport": true
+          },
+          {
+              "ltsIdOrObdtId": 31875,
+              "testId": 116,
+              "testName": "Haemagglutination inhibition test",
+              "laboratoryId": 325,
+              "laboratoryName": "Instituto Nacional de Enfermedades Virales Humanas “Dr. Julio I. Maiztegui” (INEVH)",
+              "labRoleSelected": "national",
+              "outbreakLocation": null,
+              "outbreaksSampled": null,
+              "outbreakId": null,
+              "testFrom": "2006-12-28T00:00:00.000+00:00",
+              "testUntil": null,
+              "resultDate": null,
+              "result": "Positive",
+              "speciesIds": [
+                  1875
+              ],
+              "species": [
+                  "Equidae"
+              ],
+              "createdByCurrentReport": true
+          },
+          {
+              "ltsIdOrObdtId": 31877,
+              "testId": 94,
+              "testName": "Enzyme-linked immunosorbent assay (ELISA)",
+              "laboratoryId": 325,
+              "laboratoryName": "Instituto Nacional de Enfermedades Virales Humanas “Dr. Julio I. Maiztegui” (INEVH)",
+              "labRoleSelected": "national",
+              "outbreakLocation": null,
+              "outbreaksSampled": null,
+              "outbreakId": null,
+              "testFrom": "2006-12-21T00:00:00.000+00:00",
+              "testUntil": null,
+              "resultDate": null,
+              "result": "Positive",
+              "speciesIds": [
+                  1875
+              ],
+              "species": [
+                  "Equidae"
+              ],
+              "createdByCurrentReport": true
+          },
+          {
+              "ltsIdOrObdtId": 59,
+              "testId": 235,
+              "testName": "Reverse transcription polymerase chain reaction and enzyme-linked immunosorbent assay (RT-PCR-ELISA)",
+              "laboratoryId": 326,
+              "laboratoryName": "Investigación en Ciencias Veterinarias y Agronómicas (CICVyA), Instituto Nacional de Tecnología Agropecuaria (INTA), Instituto de Bacteriología",
+              "labRoleSelected": "national",
+              "outbreakLocation": null,
+              "outbreaksSampled": null,
+              "outbreakId": null,
+              "testFrom": "2006-04-22T00:00:00.000+00:00",
+              "testUntil": null,
+              "resultDate": null,
+              "result": "Positive",
+              "speciesIds": [
+                  1875
+              ],
+              "species": [
+                  "Equidae"
+              ],
+              "createdByCurrentReport": false
+          },
+          {
+              "ltsIdOrObdtId": 58,
+              "testId": 56,
+              "testName": "Cell culture, i-ELISA, RT-PCR",
+              "laboratoryId": 325,
+              "laboratoryName": "Instituto Nacional de Enfermedades Virales Humanas “Dr. Julio I. Maiztegui” (INEVH)",
+              "labRoleSelected": "national",
+              "outbreakLocation": null,
+              "outbreaksSampled": null,
+              "outbreakId": null,
+              "testFrom": "2006-04-19T00:00:00.000+00:00",
+              "testUntil": null,
+              "resultDate": null,
+              "result": "Positive",
+              "speciesIds": [
+                  1875
+              ],
+              "species": [
+                  "Equidae"
+              ],
+              "createdByCurrentReport": false
+          }
+      ],
+      "quantitativeData": {
+          "news": [],
+          "totals": [
+              {
+                  "outbreakQuantitiesId": 44957,
+                  "speciesId": 1875,
+                  "speciesName": "Equidae",
+                  "isWild": false,
+                  "susceptible": 640,
+                  "cases": 3,
+                  "deaths": 3,
+                  "killed": 0,
+                  "slaughtered": 0,
+                  "vaccinated": null
+              }
+          ],
+          "unit": {
+              "id": 56,
+              "keyValue": "Animal",
+              "translation": "Animal",
+              "description": null
+          }
+      },
+      "selfDeclaration": null,
+      "user": null
+  }
+]
