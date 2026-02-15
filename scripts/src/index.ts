@@ -1,5 +1,3 @@
-import { Data } from "./interface/data.interface";
+import "./config/env.config.ts";
 
-const data: Data = {};
-
-console.log(data);
+console.log("dataset");
