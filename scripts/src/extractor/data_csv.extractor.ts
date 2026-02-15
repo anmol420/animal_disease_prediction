@@ -1,10 +1,10 @@
 import * as fs from "fs";
 import * as path from "path";
 
-const INPUT_PATH = path.resolve(process.cwd(), "src/data/data.sample.json");
+const INPUT_PATH = path.resolve(process.cwd(), "src/data/data.json");
 const OUTPUT_PATH = path.resolve(
   process.cwd(),
-  "src/data/animal_disease_dataset.csv",
+  "src/data/dataset.csv",
 );
 
 const raw = fs.readFileSync(INPUT_PATH, "utf-8");
@@ -91,12 +91,12 @@ function transform(item: any) {
     item.event?.lastOccurrence ?? null,
     item.report?.reportedOn ?? null,
 
-    totals.susceptible ?? null,
-    totals.cases ?? null,
-    totals.deaths ?? null,
-    totals.killed ?? null,
-    totals.slaughtered ?? null,
-    totals.vaccinated ?? null,
+    totals.susceptible ?? 0,
+    totals.cases ?? 0,
+    totals.deaths ?? 0,
+    totals.killed ?? 0,
+    totals.slaughtered ?? 0,
+    totals.vaccinated ?? 0,
 
     interventions.quarantine_applied,
     interventions.movement_control_applied,
@@ -113,7 +113,6 @@ function transform(item: any) {
     interventions.treatment_applied,
     interventions.slaughter_applied,
     interventions.intervention_count,
-    interventions.all_intervention,
 
     item.laboratoryTests?.length ?? 0,
     diagnosticMethods,
@@ -169,7 +168,6 @@ const headers = [
   "intervention_treatment_applied",
   "intervention_slaughter_applied",
   "intervention_count",
-  "all_intervention",
 
   "lab_test_performed",
   "diagnostic_method_types",
@@ -185,4 +183,4 @@ const csv = [headers.join(","), ...csvRows].join("\n");
 
 fs.writeFileSync(OUTPUT_PATH, csv);
 
-console.log("ML-ready CSV Generated:", OUTPUT_PATH);
+console.log("CSV Generated:", OUTPUT_PATH);

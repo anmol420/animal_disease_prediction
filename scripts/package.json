@@ -8,7 +8,8 @@
     "build": "tsc",
     "dev": "nodemon --exec ts-node --files src/index.ts",
     "start": "node dist/index.js",
-    "extractor": "node src/extractor/data.extractor.ts"
+    "extractor": "node src/extractor/data.extractor.ts",
+    "gen-csv": "node src/extractor/data_csv.extractor.ts"
   },
   "author": "anmol420",
   "contributors": [

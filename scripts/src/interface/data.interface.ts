@@ -16,7 +16,6 @@ export interface InterventionFlags {
   slaughter_applied: number;
 
   intervention_count: number;
-  all_intervention: string[];
 }
 
 export interface Data {
